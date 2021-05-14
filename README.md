@@ -33,3 +33,8 @@ Don't worry about colors/images/etc
 Get the layout right FIRST, then put the sugar on top
 On CSS/Bootstrap - as always, less is more!
 Be Kind and Patient to each other. Teamwork is a lot of fun when we work that way!
+
+
+
+
+making some minor adjustments here...
