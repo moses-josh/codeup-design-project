@@ -1,0 +1,52 @@
+body{
+    background-color: #e6e6e6;
+}
+
+.circles{
+    border: solid .5em #f0f0f0;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    color: #f0f0f0;
+}
+
+.small-circles{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    color: black;
+}
+
+#design{
+    background-color: #e6563b;
+}
+
+#develop{
+    background-color: #dea03d;
+}
+
+#support{
+    background-color: #7cb06c;
+}
+
+#host{
+    background-color: #00aba9;
+}
+
+#small-design{
+    background-color: #e6563b;
+}
+
+#small-develop{
+    background-color: #dea03d;
+}
+
+#small-support{
+    background-color: #7cb06c;
+}
+
+#small-host{
+    background-color: #00aba9;
+}
+
+
