@@ -12,22 +12,23 @@
     </head>
     <body>
         <header>
-            <nav>
-                <div class="bg-white my-5 bg-h-20" id="logo-bar">
+            <nav class="bg-white my-5" id="logo-bar">
+<!--                <div>-->
                     <img src="assets/logo.png" id="logo">
-                </div>
-
-                <div>
-                    <p>codeup design</p>
-                </div>
-
-                <div class="row">
-                    <div>Services</div>
-                    <div>Work</div>
-                    <div>Blog</div>
-                    <div>Contact</div>
-                </div>
+<!--                </div>-->
             </nav>
+
+            <div class="mb-3" id="codeup-title">
+                <h2>codeup design</h2>
+            </div>
+
+            <div class="row mb-5" id="items">
+                <div class="mx-2">Services</div>
+                <div class="mx-2">Work</div>
+                <div class="mx-2">Blog</div>
+                <div class="mx-2">Contact</div>
+            </div>
+
         </header>
         <div class="container">
             <div class="col-md-auto mb-4">
@@ -44,12 +45,12 @@
                 <p class="d-flex justify-content-center align-items-center circles mx-3" id="support">SUPPORT</p>
                 <p class="d-flex justify-content-center align-items-center circles mx-3" id="host">HOST</p>
             </div>
-            <hr>
+            <hr class="xs-hide hide-items">
 
 
             <div class="row">
                 <h5 class="col-md-6">SELECTED WORK</h5>
-                <h5 class="col-md-6">THE LAST</h5>
+                <h5 class="col-md-6 hide-items">THE LAST</h5>
             </div>
 
             <div class="row">
@@ -67,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row hide-items">
                 <div class="card">
                     <img src="assets/images/macbook.jpg" alt="mackbook">
                     <div class="card-body">
@@ -82,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row hide-items">
                 <div class="card">
                     <img src="assets/images/man.jpg" alt="man">
                     <div class="card-body">
@@ -97,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row hide-items">
                 <div class="card">
                     <img src="assets/images/security.jpg" alt="security">
                     <div class="card-body">
@@ -112,7 +113,7 @@
                 </div>
             </div>
 
-            <ul class="list-unstyled">
+            <ul class="list-unstyled hide-items hide-list">
                 <li><img src="assets/images/mobile-phone.jpg" alt="mobile phone"> THE ADMIN BAR AND ABSOLUTE POSITIONING</li>
                 <li><img src="assets/images/head.jpg" alt="head"> NIBBLER AWESOME WEBSITE TESTING</li>
                 <li><img src="assets/images/ipad.jpg" alt="ipad"> HOW TO GET GOOGLE TO LIKE YOU</li>
