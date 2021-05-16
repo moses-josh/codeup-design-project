@@ -3,10 +3,10 @@ body{
 }
 
 .circles{
-    border: solid .5em #f0f0f0;
+    border: solid 5px #f0f0f0;
     border-radius: 50%;
-    width: 10em;
-    height: 10em;
+    width: 105px;
+    height: 105px;
     color: #f0f0f0;
 }
 
@@ -17,36 +17,39 @@ body{
     color: black;
 }
 
-#design{
+#design, #small-design{
     background-color: #e6563b;
 }
 
-#develop{
+#develop, #small-develop{
     background-color: #dea03d;
 }
 
-#support{
+#support, #small-support{
     background-color: #7cb06c;
 }
 
-#host{
+#host, #small-host{
     background-color: #00aba9;
 }
 
-#small-design{
-    background-color: #e6563b;
+#logo {
+    height: 105px;
+    width: 105px;
 }
 
-#small-develop{
-    background-color: #dea03d;
+#logo-bar {
+    height: 50px;
 }
 
-#small-support{
-    background-color: #7cb06c;
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
 }
 
-#small-host{
-    background-color: #00aba9;
+@media screen and (min-width: 481px) and (max-width: 812px) {
+
 }
 
+@media screen and (min-width: 813px) {
 
+}
