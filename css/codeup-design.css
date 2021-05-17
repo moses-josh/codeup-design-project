@@ -2,6 +2,10 @@ body{
     background-color: #e6e6e6;
 }
 
+.container {
+    width: 100%;
+}
+
 .circles{
     border: solid 5px #f0f0f0;
     border-radius: 50%;
@@ -39,15 +43,20 @@ body{
     width: 105px;
 }
 
-#logo-bar {
-    height: 50px;
-}
+/*#logo-bar {*/
+/*    height: 50px;*/
+/*}*/
 
 .big-img{
     border: solid 8px #f0f0f0;
     border-radius: 5px;
     /*width: 250px;*/
     /*height: 171.75px;*/
+}
+.small-img {
+    border: solid 1px #f0f0f0;
+    height: 25px;
+    width: 25px;
 }
 
 .card{
@@ -65,13 +74,16 @@ h2, #items, h5, .card-body>p, #twitter{
     font-family: 'Abel', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
-    .hide-items {
-        display: none;
-    }
+@media screen and (max-width: 575px) {
+    /*.hide-items {*/
+    /*    display: none;*/
+    /*}*/
     #logo-bar {
         display: flex;
         justify-content: center;
+        height: 50px;
+        background-color: white;
+        margin-top: 40px;
     }
     #logo {
         align-self: center;
@@ -79,10 +91,17 @@ h2, #items, h5, .card-body>p, #twitter{
     #codeup-title {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
     }
     #items {
         display: flex;
         justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #items * {
+        margin-left: 5px;
+        margin-right: 5px;
     }
     h5{
         text-align: center;
@@ -98,7 +117,11 @@ h2, #items, h5, .card-body>p, #twitter{
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
     #logo-bar {
         display: flex;
         justify-content: center;
@@ -113,9 +136,9 @@ h2, #items, h5, .card-body>p, #twitter{
         text-align: center;
     }
 
-    .hide-list{
-        display: none;
-    }
+    /*.hide-list{*/
+    /*    display: none;*/
+    /*}*/
     #circle-div{
         flex-wrap: wrap;
     }
@@ -131,6 +154,6 @@ h2, #items, h5, .card-body>p, #twitter{
 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 991px) {
 
 }
