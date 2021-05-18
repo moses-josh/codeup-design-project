@@ -79,6 +79,8 @@ h2, #items, h5, .card-body>p, #twitter{
     /*    display: none;*/
     /*}*/
     h5{
+        margin-bottom: 2em;
+        margin-top: 5em;
         text-align: center;
     }
     #codeup-title {
@@ -109,9 +111,9 @@ h2, #items, h5, .card-body>p, #twitter{
     #logo {
         align-self: center;
     }
-    /*#apples{*/
-    /*    justify-content: center;*/
-    /*}*/
+    #the-last {
+        display: none;
+    }
     .circles{
         margin-right: 5px;
         margin-left: 5px;
@@ -130,7 +132,7 @@ h2, #items, h5, .card-body>p, #twitter{
     }
 
     h5{
-        margin-top: 5em;
+        margin-top: 1em;
         text-align: center;
     }
 
@@ -155,7 +157,9 @@ h2, #items, h5, .card-body>p, #twitter{
         background-color: white;
         margin-top: 40px;
     }
-
+    #the-last {
+        display: none;
+    }
     #web-dev {
         margin-top: 30px;
     }
