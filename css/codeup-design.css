@@ -225,8 +225,6 @@ ul {
         /*margin-top: 20px;*/
     }
     header {
-        display: flex;
-        justify-content: center;
     }
     #bottom-header {
         margin-top: 3em;
@@ -240,5 +238,6 @@ ul {
         margin-right: 15px;
         margin-left: 15px;
     }
+
 
 }
