@@ -15,43 +15,56 @@
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
     </head>
     <body>
-<!--        <header>-->
-<!--            <nav class="bg-white mb-4 mt-5" id="logo-bar">-->
-<!--                &lt;!&ndash;                <div>&ndash;&gt;-->
-<!--                <img src="assets/logo.png" id="logo">-->
-<!--                &lt;!&ndash;                </div>&ndash;&gt;-->
-<!--            </nav>-->
 
-<!--            <div class="mb-3" id="codeup-title">-->
-<!--                <h2>codeup design</h2>-->
+
+<!--        <div class="row text-center align-items-start px-3">-->
+<!--            <div class="navBar">-->
 <!--            </div>-->
-
-<!--            <div class="row mb-5" id="items">-->
-<!--                <div class="mx-2">Services</div>-->
-<!--                <div class="mx-2">Work</div>-->
-<!--                <div class="mx-2">Blog</div>-->
-<!--                <div class="mx-2">Contact</div>-->
+<!--            <div class="col-12 col-sm-3 col-md-2 order-sm-3 order-md-1 logo">-->
+<!--                <img class="mx-auto d-block " src="assets/logo.png" alt="">-->
 <!--            </div>-->
-<!--        </header>-->
+<!--            <div class="companyName col-12 col-sm-6 col-md-3 mx-auto text-center order-sm-6 order-md-2 ">codeup design</div>-->
+<!--            <a class="top col col-md-2 order-sm-1 order-md-3 " href="">SERVICE</a>-->
+<!--            <a class="top col col-md-2 order-sm-2 order-md-4" href="">WORK</a>-->
+<!--            <a class="top col col-md-2 order-sm-4 order-md-5" href="">BLOG</a>-->
+<!--            <a class="top col col-md-2 order-sm-5 order-md-6 align-left" href="">CONTACT</a>-->
+<!--        </div>-->
 
-        <header>
-            <nav id="logo-bar">
-                <!--                <div>-->
-                <img src="assets/logo.png" id="logo">
-                <!--                </div>-->
+        <header id="primary-header" class="d-sm-none d-md-block">
+            <nav class="logo-bar">
+                <img src="assets/logo.png" class="logo">
             </nav>
 
-            <div id="codeup-title">
+            <div class="codeup-title">
                 <h2>codeup design</h2>
             </div>
 
-            <div class="" id="items">
+            <div class="items">
                 <div class="">Services</div>
                 <div class="">Work</div>
                 <div class="">Blog</div>
                 <div class="">Contact</div>
             </div>
         </header>
+
+        <header id="secondary-header" class="d-none d-sm-block d-md-none">
+            <nav class="logo-bar">
+                <div class="items row">
+                    <div class="">Services</div>
+                    <div class="">Work</div>
+                    <img src="assets/logo.png" class="logo">
+                    <div class="">Blog</div>
+                    <div class="">Contact</div>
+                </div>
+                <div class="codeup-title">
+                    <h2>codeup design</h2>
+                </div>
+            </nav>
+
+
+
+        </header>
+
 
         <div class="" id="web-dev">
             <div class="text-align-center mb-4">
@@ -70,115 +83,102 @@
                 <p class="d-flex justify-content-center align-items-center circles" id="support">SUPPORT</p>
                 <p class="d-flex justify-content-center align-items-center circles" id="host">HOST</p>
             </div>
-            <hr class="xs-hide hide-items">
+            <hr id="line-break">
         </div>
 
-        <div class="container row mx-0 d-flex justify-content-center">
-<!--            <div class="row">-->
-<!--                <h5 class="col-md-6">SELECTED WORK</h5>-->
-<!--                <h5 class="col-md-6 hide-items hide-list">THE LAST</h5>-->
-<!--            </div>-->
+        <div class="container">
 
-            <div class="row " id="apples">
-                <div class="my-5 col">
-                    <div class="card d-flex align-items-center">
-                        <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" class="big-img">
-                        <div class="card-body d-flex justify-content-between p-0 mt-2">
-                            <p class="">FEATURED PRODUCT</p>
-                            <div class="d-flex flex-row">
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-design">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-develop">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-support">S</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="my-5 col">
-                    <div class="card d-flex justify-content-center">
-                        <img src="assets/images/macbook.jpg" alt="mackbook" class="big-img">
-                        <div class="card-body d-flex justify-content-between p-0 mt-2">
-                            <p>FEATURED PRODUCT</p>
-                            <div class="d-flex flex-row">
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-design">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-develop">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-support">S</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="my-5 col">
-                    <div class="card d-flex justify-content-center">
-                        <img src="assets/images/man.jpg" alt="man" class="big-img">
-                        <div class="card-body d-flex justify-content-between p-0 mt-2">
-                            <p>FEATURED PRODUCT</p>
-                            <div class="d-flex flex-row">
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-design">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-develop">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-support">S</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="my-5 col">
-                    <div class="card d-flex justify-content-center">
-                        <img src="assets/images/security.jpg" alt="security" class="big-img">
-                        <div class="card-body d-flex justify-content-between p-0 mt-2">
-                            <p>FEATURED PRODUCT</p>
-                            <div class="d-flex flex-row">
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-design">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-develop">D</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-support">S</p>
-                                <p class="d-flex justify-content-center align-items-center small-circles mx-1"
-                                   id="small-host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row" id="bottom-header">
+                <div class="col-12 col-sm-12 col-md-4"><h5>SELECTED WORK</h5></div>
+                <div class="col-md-4 ml-auto"><h5 id="the-last">THE LAST</h5></div>
             </div>
 
-            <!--            <ul class="list-unstyled hide-items hide-list">-->
-            <!--                <li><img src="assets/images/mobile-phone.jpg" alt="mobile phone" class="small-img"> THE ADMIN BAR AND ABSOLUTE POSITIONING</li>-->
-            <!--                <li><img src="assets/images/head.jpg" alt="head" class="small-img"> NIBBLER AWESOME WEBSITE TESTING</li>-->
-            <!--                <li><img src="assets/images/ipad.jpg" alt="ipad" class="small-img"> HOW TO GET GOOGLE TO LIKE YOU</li>-->
-            <!--                <li id="twitter"><i class="bi bi-twitter"></i> LAST TWEET<br><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>-->
-            <!--            </ul>-->
+            <div class="row">
 
-            <div class="my-2 col">
-                <ul class="list-unstyled hide-items hide-list">
-                    <li><img src="assets/images/mobile-phone.jpg" alt="mobile phone" class="small-img"> THE ADMIN BAR
-                        AND ABSOLUTE POSITIONING
-                    </li>
-                    <li><img src="assets/images/head.jpg" alt="head" class="small-img"> NIBBLER AWESOME WEBSITE TESTING
-                    </li>
-                    <li><img src="assets/images/ipad.jpg" alt="ipad" class="small-img"> HOW TO GET GOOGLE TO LIKE YOU
-                    </li>
-                    <li id="twitter"><i class="bi bi-twitter"></i> LAST TWEET<br>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.</p></li>
-                </ul>
+                <div class="col-md-8" id="big-img-div">
+                    <div class="row">
+                        <div class="card d-flex justify-content-center col-xs col-sm-6">
+                            <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" class="big-img">
+                            <div class="card-body d-flex justify-content-between p-0 mt-2">
+                                <p class="">FEATURED PRODUCT</p>
+                                <div class="d-flex flex-row">
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-design">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-develop">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-support">S</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-host">H</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex justify-content-center col-xs col-sm-6">
+                            <img src="assets/images/macbook.jpg" alt="macbook" class="big-img">
+                            <div class="card-body d-flex justify-content-between p-0 mt-2">
+                                <p>FEATURED PRODUCT</p>
+                                <div class="d-flex flex-row">
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-design">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-develop">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-support">S</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-host">H</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex justify-content-center col-xs col-sm-6">
+                            <img src="assets/images/man.jpg" alt="man" class="big-img">
+                            <div class="card-body d-flex justify-content-between p-0 mt-2">
+                                <p>FEATURED PRODUCT</p>
+                                <div class="d-flex flex-row">
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-design">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-develop">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-support">S</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-host">H</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex justify-content-center col-xs col-sm-6">
+                            <img src="assets/images/security.jpg" alt="security" class="big-img">
+                            <div class="card-body d-flex justify-content-between p-0 mt-2">
+                                <p>FEATURED PRODUCT</p>
+                                <div class="d-flex flex-row">
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-design">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-develop">D</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-support">S</p>
+                                    <p class="d-flex justify-content-center align-items-center small-circles mx-1"
+                                       id="small-host">H</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs col-md-4 d-flex">
+                    <ul class="list-unstyled">
+                        <li class="d-flex"><img src="assets/images/mobile-phone.jpg" alt="mobile phone" class="small-img"> <p>THE ADMIN BAR AND ABSOLUTE POSITIONING</p></li>
+                        <li class="d-flex"><img src="assets/images/head.jpg" alt="head" class="small-img"> <p>NIBBLER AWESOME WEBSITE TESTING</p></li>
+                        <li class="d-flex"><img src="assets/images/ipad.jpg" alt="ipad" class="small-img"> <p>HOW TO GET GOOGLE TO LIKE YOU</p></li>
+                        <li id="twitter"><i class="bi bi-twitter text-primary"></i> LAST TWEET<br><p id="lorum">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p></li>
+                    </ul>
+                </div>
+
             </div>
+
         </div>
 
 
