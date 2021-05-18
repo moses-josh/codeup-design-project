@@ -78,15 +78,8 @@ h2, #items, h5, .card-body>p, #twitter{
     /*.hide-items {*/
     /*    display: none;*/
     /*}*/
-    #logo-bar {
-        display: flex;
-        justify-content: center;
-        height: 50px;
-        background-color: white;
-        margin-top: 40px;
-    }
-    #logo {
-        align-self: center;
+    h5{
+        text-align: center;
     }
     #codeup-title {
         display: flex;
@@ -103,8 +96,18 @@ h2, #items, h5, .card-body>p, #twitter{
         margin-left: 5px;
         margin-right: 5px;
     }
-    h5{
-        text-align: center;
+    #line-break {
+        display: none;
+    }
+    #logo-bar {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        background-color: white;
+        margin-top: 40px;
+    }
+    #logo {
+        align-self: center;
     }
     /*#apples{*/
     /*    justify-content: center;*/
@@ -139,6 +142,9 @@ h2, #items, h5, .card-body>p, #twitter{
         justify-content: center;
         margin-top: 30px;
     }
+    #line-break {
+        width: 75%;
+    }
     #logo {
         align-self: center;
     }
@@ -157,9 +163,6 @@ h2, #items, h5, .card-body>p, #twitter{
     .circles{
         margin: 2px;
     }
-
-
-
 
 }
 
