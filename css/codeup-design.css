@@ -166,6 +166,13 @@ ul {
     /*    display: flex;*/
     /*    justify-content: center;*/
     /*}*/
+    .logo-bar {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        background-color: white;
+        margin-top: 40px;
+    }
     h1 {
         width: 100%;
     }
@@ -193,13 +200,18 @@ ul {
     }
     .logo {
         align-self: center;
+
+    }
+    .nav-items{
+        align-items: center;
+        margin-top: -1.5em;
     }
 
     #the-last {
         display: none;
     }
     #web-dev {
-        margin-top: 30px;
+        margin-top: 10em;
     }
 
     .circles{
@@ -228,4 +240,5 @@ ul {
         margin-right: 15px;
         margin-left: 15px;
     }
+
 }
