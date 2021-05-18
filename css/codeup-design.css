@@ -238,6 +238,21 @@ ul {
         margin-right: 15px;
         margin-left: 15px;
     }
+    .logo-bar{
+        justify-content: flex-start;
+    }
+    .logo{
+        margin-top: -1em;
+    }
+    .codeup-title{
+        margin-top: .5em;
+    }
 
+    .large-nav-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -2em;
+    }
 
 }
